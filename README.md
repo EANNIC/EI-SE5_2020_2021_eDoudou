@@ -22,7 +22,7 @@ Les codes sont disponibles dans le répertoire 'src'
 1/ Arduino IDE pour utiliser les librairies Edge Impulse
 </br>2/ PLateformeIO via Visual Studio Code pour le reste
 
-# Tratement des datas
+# Traitement des datas
 Nous avons opté pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.</br>
 1/ Activer son module sigfox sur Sigfox Backend.
 </br>2/ Faire des callBacks vers le cloud Ubidots pour visualiser les datas sur un DashBoard et pouvoir s'occuper des alarmes.
