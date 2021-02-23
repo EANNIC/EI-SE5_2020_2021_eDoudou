@@ -8,3 +8,18 @@ Le syndrome de mort subite du nourrisson (SMSN) désigne la mort inattendue d’
 Pour que notre produit soit complet, nous avons choisi d’intégrer des capteurs de température et d’humidité pour que le bien-être du nourrisson soit maximal. En effet, le bébé développe son cerveau principalement la nuit. Une chambre à mauvaise température peut troubler son sommeil et ainsi défavoriser sa croissance.
 
 Enfin, nous avons intégré un capteur de bruit qui est capable de reconnaître les cris/pleurs du nourrisson. Ainsi, le dispositif du doudou connecté pourra allègrement remplacer les babyphones, qui peuvent réveiller les parents sans raisons particulières.
+
+
+# Composants :
+Micro controlleur: Arduino nano 33 BLE sense
+Communication : SigFox Module SFM10R1 Breakout board BRKWS01
+
+# Logiciels :
+Arduino IDE pour utiliser les librairies Edge Impulse
+PLateformeIO via Visual Studio Code pour le reste
+
+# Tratement des datas
+Nous avons optés pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.
+1/ Activer son module sigfox sur Sigfox Backend
+2/ Faire des callBacks vers le cloud Ubidots pour visualiser les datas sur un DashBoard et pouvoir s'occuper des alarmes.
+3/ Attention il n'est pas possible de créer des alarmes directement sur Ubidots. il faut les gérer en local sur la carte puis envoyer ces alarmes sur Sigfox puis Ubidots.
