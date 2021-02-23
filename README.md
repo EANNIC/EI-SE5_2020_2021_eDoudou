@@ -9,22 +9,21 @@ Pour que notre produit soit complet, nous avons choisi d’intégrer des capteur
 
 Enfin, nous avons intégré un capteur de bruit qui est capable de reconnaître les cris/pleurs du nourrisson. Ainsi, le dispositif du doudou connecté pourra allègrement remplacer les babyphones, qui peuvent réveiller les parents sans raisons particulières.
 
+# Codes :
+Les codes sont disponibles dans le répertoire 'src' 
+</br>Les librairies sont le répertoire 'lib' mais ils sont compressés au format .zip car trop lourd pour les uploads sinon.
+
 
 # Composants :
 1/ Micro controlleur: Arduino nano 33 BLE sense
-
-2/ Communication : SigFox Module SFM10R1 Breakout board BRKWS01
+</br>2/ Communication : SigFox Module SFM10R1 Breakout board BRKWS01
 
 # Logiciels :
 1/ Arduino IDE pour utiliser les librairies Edge Impulse
-
-2/ PLateformeIO via Visual Studio Code pour le reste
+</br>2/ PLateformeIO via Visual Studio Code pour le reste
 
 # Tratement des datas
-Nous avons opté pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.
-
+Nous avons opté pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.</br>
 1/ Activer son module sigfox sur Sigfox Backend.
-
-2/ Faire des callBacks vers le cloud Ubidots pour visualiser les datas sur un DashBoard et pouvoir s'occuper des alarmes.
-
-3/ Attention il n'est pas possible de créer des alarmes directement sur Ubidots. il faut les gérer en local sur la carte puis envoyer ces alarmes sur Sigfox puis Ubidots.
+</br>2/ Faire des callBacks vers le cloud Ubidots pour visualiser les datas sur un DashBoard et pouvoir s'occuper des alarmes.
+</br>3/ Attention il n'est pas possible de créer des alarmes directement sur Ubidots. il faut les gérer en local sur la carte puis envoyer ces alarmes sur Sigfox puis Ubidots.
