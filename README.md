@@ -19,7 +19,10 @@ Arduino IDE pour utiliser les librairies Edge Impulse
 PLateformeIO via Visual Studio Code pour le reste
 
 # Tratement des datas
-Nous avons optés pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.
-1/ Activer son module sigfox sur Sigfox Backend
+Nous avons opté pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.
+
+1/ Activer son module sigfox sur Sigfox Backend.
+
 2/ Faire des callBacks vers le cloud Ubidots pour visualiser les datas sur un DashBoard et pouvoir s'occuper des alarmes.
+
 3/ Attention il n'est pas possible de créer des alarmes directement sur Ubidots. il faut les gérer en local sur la carte puis envoyer ces alarmes sur Sigfox puis Ubidots.
