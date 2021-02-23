@@ -1,5 +1,5 @@
 # EI-SE5_2020_2021_eDoudou
-Projet_Objets_Connectes
+Projet_Objets_Connectes\n
 Notre produit est un doudou connecté. Il est destiné aux jeunes parents qui possèdent un nouveau-né. L’objectif de ce produit est, d’une part de monitorer l’environnement de la chambre du bébé pour qu’il puisse passer ses meilleures nuit, et d’autre part de pouvoir alerter les parents si le bébé est vulnérable.
 Le syndrome de mort subite du nourrisson (SMSN) désigne la mort inattendue d’un bébé. Ce syndrome se produit généralement durant le sommeil : un bébé en bonne santé s’endort et cesse de respirer, sans cause médicale apparente. Ce syndrome est souvent lié à une mauvaise position du bébé dans le lit (sur le ventre). Pour cela nous avons intégré des capteurs de mouvements pour savoir si le bébé bouge beaucoup et ainsi prévenir les parents au cas où le bébé serait sur le ventre.
 Pour que notre produit soit complet, nous avons choisi d’intégrer des capteurs de température et d’humidité pour que le bien-être du nourrisson soit maximal. En effet, le bébé développe son cerveau principalement la nuit. Une chambre à mauvaise température peut troubler son sommeil et ainsi défavoriser sa croissance.
