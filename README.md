@@ -11,12 +11,14 @@ Enfin, nous avons intégré un capteur de bruit qui est capable de reconnaître 
 
 
 # Composants :
-Micro controlleur: Arduino nano 33 BLE sense
-Communication : SigFox Module SFM10R1 Breakout board BRKWS01
+1/ Micro controlleur: Arduino nano 33 BLE sense
+
+2/ Communication : SigFox Module SFM10R1 Breakout board BRKWS01
 
 # Logiciels :
-Arduino IDE pour utiliser les librairies Edge Impulse
-PLateformeIO via Visual Studio Code pour le reste
+1/ Arduino IDE pour utiliser les librairies Edge Impulse
+
+2/ PLateformeIO via Visual Studio Code pour le reste
 
 # Tratement des datas
 Nous avons opté pour la terchnologie des LPWANs avec l'utilisation de Sigfox pour faire remonter l'information jusqu'à l'utilisateur.
